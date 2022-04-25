@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Pidgin" Version="3.1.0" />
+      <PackageReference Include="Spectre.Console" Version="0.44.1-preview.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Parsing\KvaihaParser.cs~" />
+    </ItemGroup>
+
+</Project>
